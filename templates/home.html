@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block container %}
+<div class="grid-container">
+    <a href="{{ url_for('task_clothes') }}">
+        <div class="grid-item">
+            Clothes
+        </div>
+    </a>
+    <a href="{{ url_for('task_shoes') }}">
+        <div class="grid-item">
+            Shoes
+        </div>
+    </a>
+    <a href="{{ url_for('task_accessories') }}">
+    <div class="grid-item">
+        Accessories
+    </div>
+</a>
+</div>
+{% endblock %}
